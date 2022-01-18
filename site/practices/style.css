@@ -1,0 +1,75 @@
+div {
+    color: blue;
+    font-size: 20px;
+    width: 500px;
+    text-align: left;
+    background-color: chartreuse;
+    opacity: .5;
+    font-weight: bold;
+    font-style: italic;
+}
+h3{
+    color:darkmagenta ;
+    font-family: 'Times New Roman', Times, serif        ;
+    font-size: larger;
+    background-color: burlywood;
+    opacity: .6;
+}
+p,h1{
+    color: lightcoral;
+}
+h3.big{
+    color: lightseagreen;
+    font-size: 100px;
+    opacity: .9;
+}
+
+a.aaa >div:nth-child(5):hover{  
+    font-size: 24px;
+    cursor: pointer;
+    background-color: lightseagreen;
+}
+div,span{
+    background-color: lightslategray;
+}
+section.sec1{
+    font-size: 130%;
+    color: bisque;
+    margin: 10px;
+    background-color: cadetblue;
+}
+
+
+
+
+ .big{
+    cursor: pointer;
+    color: darkorchid;
+}
+
+ #article1{
+    color: darkorange;
+    
+}
+
+.bg{
+    box-sizing: border-box;
+    background: url( "buttoms.png") ;
+    background-position:  bottom;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    
+    border: 10px solid black;
+   
+
+}
+
+.capture{
+    width: 50%;
+    float: left;
+    border: 1px solid black;
+    clear: right;
+}
+*{
+    box-sizing: border-box;
+}
