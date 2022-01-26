@@ -7,21 +7,21 @@ body{
 
 
 /* nav begain */
-.navbar h1 {
+#sign {
     font-family: 'Lora',serif;
     color: #000;
     font-size: 5em;
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 0px;
     line-height: .75;
     text-align: center;
 }
 .container{
     margin-top: 50px;
-    font-size: 2em;
+    font-size: 1.5em;
 
 }
 .container a{
@@ -74,6 +74,13 @@ body{
    
     background-position: center;
 }
+
+.pic :hover{
+    box-shadow: 0 5px 5px 5px lightgray;
+    border-radius: 5px;
+
+}
+
 #specials-tile{
     background: url('../images/3-250.jpeg')no-repeat;
     background-position: center;
