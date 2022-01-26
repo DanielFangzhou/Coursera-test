@@ -1,0 +1,226 @@
+body{
+    font-size: 10px;
+    color: #fff;
+    /* background-color: #61122f; */
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+/* nav begain */
+.navbar h1 {
+    font-family: 'Lora',serif;
+    color: #000;
+    font-size: 5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    line-height: .75;
+    text-align: center;
+}
+.container{
+    margin-top: 50px;
+    font-size: 2em;
+
+}
+.container a{
+    color: #000;
+    list-style:none;
+}
+
+
+
+/* nav end */
+
+/* content begain  */
+.content{
+    border: 100px;
+    margin: 50px 20% 50px 20%;
+}
+ .row div  {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.row div  a {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/* content end  */
+
+.container .jumbotron{
+
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+}
+
+#menu-tile, #specials-tile, #map-tile{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid#3f0c1f;
+    overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile{
+    background: url('../images/2-250.jpeg')no-repeat;
+   
+    background-position: center;
+}
+#specials-tile{
+    background: url('../images/3-250.jpeg')no-repeat;
+    background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        background-color: #000;
+        color: #fff;
+        opacity: .6;
+        
+}
+#menu-tile,#specials-tile{
+    width: 172px;
+    margin: 0 auto 15px auto;
+}
+/* FOOTER */
+.panel-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: transparent;
+    border-top: 0px;
+}
+
+#hours a{
+    width: 100px;
+    height: 100px;
+}
+
+#redbook{
+    margin-bottom: 0px;
+    float: right;
+}
+#ins{
+    float: left;
+    margin-bottom: 0px;
+}
+.panel-footer {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+
+}
+.text-center{
+    margin-bottom: 10px;
+    color: black;
+}
+
+.panel-footer div.row{
+    margin-bottom: 35px;
+}
+#hours, #address{
+    line-height: 2;
+}
+#hours > span, #address>span{
+    font-size: 1.3em;
+}
+#address p{
+    color:#557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+}
+#testimonials{
+    font-style: italic;
+}
+#testimonials p:nth-child(2){
+    margin-top: 25px;
+}
+
+/* EDN FOOTER  */
+
+/* END HOME PAGE */
+
+@media(min-width:1200px){
+    #logo{
+        height: 100px;
+        margin: 10px 15px 5px 0px;
+    }
+    .container .jumbotron{
+        background: url('../images/1-1200.jpg')no-repeat;
+        height: 1000px;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .container .jumbotron{
+        background: url('../images/1-992.jpg')no-repeat;
+        height: 558px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .container .jumbotron{
+        background: url('../images/1-768.jpg')no-repeat;
+        height: 768px;
+    }
+}
+@media(max-width:767px){
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1{
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+    .navbar-brand p{
+        font-size: .6em;
+        margin-top: 12px;
+    }
+    .navbar-brand p img{
+        height: 20px;
+    }
+    #collapsable-nav a{
+        font-size: 1.2em;
+    }
+
+    #collapsable-nav a span{
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+    /* Footer */
+    .panel-footer section{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .panel-footer section:nth-child(3){
+        margin-bottom: 0;
+    }
+    .panel-footer section hr{
+        width: 50%;
+    }
+
+    /* Home Page */
+    .container .jumbotron{
+        margin-top: 30px;
+        padding: 0;
+        
+    }
+    
+}
+
+
