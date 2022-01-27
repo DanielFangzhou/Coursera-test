@@ -1,6 +1,6 @@
 body{
     font-size: 10px;
-    color: #fff;
+    color: #000;
     /* background-color: #61122f; */
     font-family: 'Oxygen', sans-serif;
 }
@@ -28,12 +28,34 @@ body{
     color: #000;
     list-style:none;
 }
+.navbar-header button{
+    border-style: none;
+    color: #000;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-family:monospace;
+}
 
+.navbar-collapse a{
+    font-family:monospace;
+    line-height: 30px;
 
+}
 
 /* nav end */
 
 /* content begain  */
+.year{
+    padding: 0px;
+}
+ .year .text{
+    text-align: center;
+    font-size: 5vw;
+    font-family: comforter;
+}
+
+
 .content{
     border: 100px;
     margin: 50px 20% 50px 20%;
@@ -76,10 +98,28 @@ body{
 }
 
 .pic :hover{
-    box-shadow: 0 5px 5px 5px lightgray;
-    border-radius: 5px;
+    /* box-shadow: 0 5px 5px 5px lightgray;
+    border-radius: 5px; */
+    /* box-shadow: 0 1px 5px 1px #cccccc; */
 
 }
+.pic{
+    position: relative;
+}
+/* .thumbnail span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    text-align: center;
+    align-items: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .6;
+} */
 
 #specials-tile{
     background: url('../images/3-250.jpeg')no-repeat;
@@ -103,12 +143,35 @@ body{
     width: 172px;
     margin: 0 auto 15px auto;
 }
+
+.introduction p{
+    /* padding-left: 50px; */
+    color: #A8A8A8    ;
+    margin-left: 30px;
+    margin-top: 10px;
+    line-height: 2vw;
+    font-size: 1.2vw;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.introduction p em{
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text  a{
+    color: black;
+}
+.text a:hover{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
 /* FOOTER */
 .panel-footer{
     margin-top: 30px;
     padding-top: 35px;
     padding-bottom: 30px;
-    background-color: transparent;
+    background-color: #F8F8F8    ;
     border-top: 0px;
 }
 
@@ -229,5 +292,4 @@ body{
     }
     
 }
-
 
