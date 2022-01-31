@@ -260,6 +260,15 @@ h2{
     color: #777777;
     border: 0px;
 }
+
+.media-body{
+    font-size: 1.5em;
+    color: #777777;
+}
+.media-heading{
+    color: black;
+    font-size: 2em;
+}
 /* content end  */
 
 
@@ -453,6 +462,12 @@ h2{
     #buttom-menu{
         padding-top: 0px;
     }
+
+    
+.media-body{
+    font-size: .8em;
+}
+
     
 }
 
