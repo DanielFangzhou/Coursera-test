@@ -216,7 +216,7 @@ float:right;
 #email{
     font-size: 1.2em;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 0px;
 
 }
 
@@ -445,7 +445,7 @@ h2{
 
         margin-top: 5px;
         margin-left: 0px;
-        text-align: justify;
+        /* text-align: justify; */
     }
      #selfintroduction em{
 
