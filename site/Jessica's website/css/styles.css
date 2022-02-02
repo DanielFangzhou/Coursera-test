@@ -216,7 +216,8 @@ float:right;
 #email{
     font-size: 1.2em;
     text-align: left;
-    margin-left: 0px;
+    margin-left: 20px;
+
 
 }
 
@@ -467,7 +468,9 @@ h2{
 .media-body{
     font-size: .8em;
 }
-
+#email{
+    margin-left: 0px;
+}
     
 }
 
