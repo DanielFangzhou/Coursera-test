@@ -16,15 +16,24 @@ body{
     /* margin-left: 30px;
     margin-right: 30px; */
 }
+section {
+    padding: 15px;
+  }
+  section > div {
+      padding: 15px;
+      background-color: lightgray;
+      /* border: 5px solid black; */
+      border-radius: 20px  ;
+
+    }
 .food{
-    border: 10px solid white;
+    /* border: 10px solid white; */
     /* width: 30%; */
     /* width: 30%; */
-    background-color: lightgray;
     /* margin: 5px; */
     text-align: center;
     margin-bottom: 20px;
-        border-radius: 5;
+        /* border-radius: 5; */
 
 }
 .discreption{
