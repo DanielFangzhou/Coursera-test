@@ -1,0 +1,38 @@
+#can1{
+    heigth:500px;
+    width:400px;
+  border:2px solid lightgray;
+    background-color:white;
+  }
+  #can2{
+     heigth:500px;
+    width:400px;
+  border:2px solid lightgray;
+    background-color:white;
+  }
+  input{
+    font-size:15pt;
+  }
+  h1 {
+    font-family: arial;
+    color: blue;
+  }
+  
+  body {
+    font-family: arial;
+    margin: 30px;
+  }
+  .div1{
+      background-color:#E0F5F6;
+  border-top-style: solid;
+     border-bottom-style: solid;
+     border-left-style: solid;
+     border-right-style: solid;
+    border-color:RoyalBlue;
+    border-width:1px;
+    padding-left:5px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+  }
+  
+  
