@@ -1,3 +1,2 @@
-
-//  hello();
-console.log(hello());
+hello();
+hi();
